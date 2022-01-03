@@ -11,8 +11,8 @@ function Client({ choix, getValue, printValue,inputVal }) {
             </form>
             <h2>Serveur :</h2>
             <div>
-            
-            {choix.map((ele)=> (<p key={ele}> {ele} </p>))}
+           
+             {choix.map((ele)=> (<p key={ele}> {ele} </p>))} 
             </div>
         </div>
     )
